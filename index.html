@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.remixicon.com/releases/v1.2.2/remixicon.css" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: rgb(242, 222, 222);
+      color: white;
+
+    }
+
+    .header {
+      /* position: fixed; */
+      display: flex;
+      background-color: rgb(244, 236, 236);
+      width: 100%;
+      justify-content: space-between;
+      color: black;
+      margin: 10px;
+      padding: 10px;
+    }
+
+    .navbar {
+      position: relative;
+      display: flex;
+      margin: 10px 10px;
+      padding: 10px 10px;
+      align-items: center;
+
+
+    }
+
+    .logo {
+
+      display: flex;
+      justify-content: space-between;
+      font-size: 20px;
+      align-items: center;
+      margin-left: 10px;
+
+    }
+
+    .logo h3 {
+      font-size: 30px;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+    .homeimg img {
+      border-radius: 50%;
+      width: 100px;
+      margin-top: 10px;
+    }
+
+    /* .form {
+      background-color: aqua;
+      width: 250px;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+    } */
+
+    .navbar a {
+      margin: 13px;
+      font-size: 25px;
+    }
+
+    .header img {
+      width: 55px;
+      height: 55px;
+      margin-left: 29px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .search {
+      margin-right: 50px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      gap: 10px;
+
+    }
+
+    .search button {
+      background-color:#00bcf2;
+      width: 130px;
+      height: 40px;
+      border-radius: 5px;
+    }
+
+   .search .input-box {
+      display: flex;
+      width: 330px;
+      height: 40px;
+      margin-right: 40px;
+
+      /* align-items: center;
+      justify-content: center; */
+
+    }
+
+    .input-box placeholder {
+      color: #000000;
+      outline: #00bcf2;
+    }
+    .vs-img img{
+      width: 500x;
+      height: 600px;
+      margin-right: 8px;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 10px;
+    }
+
+    /* }
+    .vs-image img{
+      width: 500px;
+      height: 600px;
+      margin-left: 780px;
+      margin-bottom: 1000px;
+
+        } */
+         .body-section{
+          display: flex;
+          justify-content: space-between;
+          margin-top: 40px;
+         }
+         .home-section button{
+          background-color: #0076bf;
+          width: 400px;
+          height: 40px;
+          font-size: 30px;
+          border-radius: 40px;
+         }
+         .home-section{
+          display: grid;
+          position: relative;
+          margin-left: 50px;
+          align-items: center;
+        }
+        .home-section h3{
+           margin-top: 100px;
+          color: black;
+          border: solid 2px black;
+          width: 550px;
+          border-radius: 8px;
+          font-size: 30px;
+        }
+         .home-section h1{
+          font-size: 90px;
+          color: black;
+
+         }
+        
+  </style>
+</head>
+<body>
+  <nav>
+    <header class="header">
+      <div class="logo">
+        <img src="vscodelogo.png">
+        <h3>Visual Studio Codes</h3>
+      </div>
+      <div class="navbar">
+        <a>Docs</a>
+        <a>Updates</a>
+        <a>Blog</a>
+        <a>API</a>
+        <a>Extension</a>
+        <a>FAQ</a>
+      </div>
+      <div class="search">
+        <div class="input-box">
+          <input type="text" placeholder="search Docs">
+          <button>Download</button>
+        </div>
+      </div>
+
+
+
+    </header>
+  </nav>
+<!-- 
+  body section -->
+  <div class="body-section">
+    <div class="home-section">
+      <h3>Free. Built on open source.Runs Everyhere</h3>
+      <h1>Code<br> Editing <br>Redefined</h1>
+      <button type="btn">Download For Windows</button>
+    </div>
+    <div class="vs-img">
+      <img src="home-screenshot.png">
+
+    </div>
+  </div>
+  
+  
+
+
+</body>
+
+</html>
